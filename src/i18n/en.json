@@ -1,0 +1,25 @@
+{
+  "FEATURED_ARTIST": "Featured artist",
+  "DISCOVER": "Discover",
+  "SEE_MORE_ABOUT_THIS_CREATOR": "See more about this creator",
+  "FILTERS": {
+    "LABEL": "Filters",
+    "NSFW": "Enable NSFW content",
+    "ONLY_VERIFIED": "Show only verified artists",
+    "ADD_TAGS": "Add tags",
+    "APPLY": "Apply"
+  },
+  "NAV": {
+    "SEARCH": "Search",
+    "SIGNUP": "Sign up",
+    "LOGIN": "Log in"
+  },
+  "LOGIN": {
+    "TITLE": "Log in",
+    "REMEMBER_ME": "Remember me",
+    "SUBMIT": "Continue",
+    "OR": "Or",
+    "GOOGLE": "Continue with Google",
+    "FACEBOOK": "Continue with Facebook"
+  }
+}

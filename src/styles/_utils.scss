@@ -1,0 +1,17 @@
+.artix-pill {
+  border: 1px solid rgba($isabelline, .3) !important;
+  background-color: rgba($isabelline, .3) !important;
+}
+
+.artix-pill:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.artix-pill:focus {
+  display: none;
+}
+
+.spinner-purple {
+  color: $purple !important;
+}
