@@ -1,0 +1,120 @@
+.picture-page {
+  .picture-section {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    .post-picture {
+      max-width: 809px;
+      min-width: 809px;
+      max-height: 870px;
+      min-height: 870px;
+      background-color: rgba(black, 0.2);
+      border-radius: 14px;
+      object-fit: scale-down;
+    }
+    
+    .separator {
+      width: 100%;
+      border-bottom: 1px solid $dark-grey;
+    }
+
+    .description {
+      margin-top: 10px;
+      line-height: 20px;
+      max-width: 800px;
+    }
+  }
+
+  .user-section {
+    margin-left: 30px;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: fit-content;
+    border-radius: 14px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid rgba($isabelline, .3);
+    display: flex;
+    flex-direction: column;
+
+    .user-info {
+      margin-left: 10px;
+    }
+
+    .user-header {
+      display: flex;
+    }
+
+    .follow-button {
+      background-color: $orange;
+      align-self: center;
+      text-align: center;
+      margin-left: auto;
+      cursor: pointer;
+      width: 80px;
+      padding: 4px;
+      height: fit-content;
+      border: none;
+      border-radius: 40px;
+    }
+
+    .prices-button {
+      background-color: $purple;
+      align-self: center;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      padding: 8px;
+      height: fit-content;
+      border: none;
+      border-radius: 40px;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .user-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+    }
+
+    .user-separator {
+      width: 100%;
+      margin-top: 10px;
+      border-bottom: 1px solid $light-grey;
+    }
+
+    .user-description {
+      max-width: 335px;
+      margin-top: 10px;
+
+      p {
+        line-height: 17px;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .picture-page {
+    .picture-section {
+      display: flex;
+      flex-direction: column;
+      .post-picture {
+        max-width: 409px;
+        min-width: 409px;
+        max-height: 470px;
+        min-height: 470px;
+        background-color: rgba(black, 0.2);
+        border-radius: 8px;
+        object-fit: scale-down;
+      }
+    }
+  }
+}

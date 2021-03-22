@@ -14,9 +14,6 @@ export default function ExploreSection(props) {
     });
   }, [props.nsfw]);
 
-  const goToPost = (postId) => {
-    alert(postId);
-  };
   if (isLoading) {
     return (
       <div className="explore-section-loading">
@@ -27,7 +24,7 @@ export default function ExploreSection(props) {
     return (
       <div className="explore-section">
         { images.map((post, index) => {
-            return <ArtCard image={post.url} title={post.title} onClick={() => goToPost(post.id)} artist={post.artist} key={index} />
+            return <ArtCard image={post.url} title={post.title} id={post.id} artist={post.artist} key={index} />
           })}
       </div>
     );
